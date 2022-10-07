@@ -19,6 +19,7 @@ public class lab_1_2_3_c {
 
         //
 
+
         double median;
         if (array.length % 2 == 0) {
             median = ((double)array[array.length / 2] + (double)array[array.length / 2 - 1]) / 2;
