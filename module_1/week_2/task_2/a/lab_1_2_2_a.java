@@ -10,7 +10,6 @@ public class lab_1_2_2_a {
         int height = scanner.nextInt();
 
         for (int i = 1; i <= height; i++) {
-            //
             for (int j = i; j < height; j++) {
                 System.out.print(" ");
             }
@@ -18,10 +17,8 @@ public class lab_1_2_2_a {
                 System.out.print("#");
             }
 
-            //
+            // Пробел между пирамидами
             System.out.print(" ");
-
-            //
             System.out.println("#".repeat(i));
         }
     }
