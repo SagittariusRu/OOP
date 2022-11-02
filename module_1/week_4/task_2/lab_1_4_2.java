@@ -6,10 +6,10 @@ public class lab_1_4_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("");
+        System.out.println("Введите сообщение");
         String message = scanner.nextLine();
 
-        System.out.println("");
+        System.out.println("Выберете тип");
         String type = scanner.nextLine();
 
         System.out.printf("%s: %s -> %s: %s",
