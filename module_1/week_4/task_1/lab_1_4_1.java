@@ -10,6 +10,9 @@ public class lab_1_4_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Пример возможного пути: \n" +
+                "E:\\Education\\IdeaProjects\\Volodin\\src\\module_1\\week_4\\task_1\\fail.txt");
+
         System.out.println("Введите путь к файлу: ");
         String file = scanner.nextLine();
         System.out.println(getLines(file));
