@@ -1,5 +1,4 @@
 package module_2.week_5.task_1.c;
-//import util.Util;
 
 import java.util.ArrayList;
 import java.util.Scanner;
